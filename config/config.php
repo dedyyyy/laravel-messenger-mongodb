@@ -2,7 +2,7 @@
 
 return [
 
-    'user_model' => App\Models\Users::class,
+    // 'user_model' => App\Models\User::class,
 
     'message_model' => Dedyyyy\Messenger\Models\Message::class,
 
