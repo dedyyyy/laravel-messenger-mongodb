@@ -1,9 +1,9 @@
 <?php
 
-namespace Cmgmyr\Messenger\Models;
+namespace Dedyyyy\Messenger\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model as Eloquent;
+use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Carbon;
@@ -65,7 +65,7 @@ class Thread extends Eloquent
     /**
      * Returns the latest message from a thread.
      *
-     * @return null|\Cmgmyr\Messenger\Models\Message
+     * @return null|\Dedyyyy\Messenger\Models\Message
      */
     public function getLatestMessageAttribute()
     {

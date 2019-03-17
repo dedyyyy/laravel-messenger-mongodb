@@ -1,13 +1,13 @@
 {
-    "name": "cmgmyr/messenger",
-    "description": "Simple user messaging tool for Laravel",
-    "keywords": ["laravel", "messenger", "messaging", "user messaging"],
+    "name": "dedyyyy/messenger",
+    "description": "Simple user messaging tool for Laravel Mongodb",
+    "keywords": ["laravel", "messenger", "messaging", "user messaging","mongodb"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Chris Gmyr",
-            "email": "cmgmyr@gmail.com",
-            "homepage": "https://github.com/cmgmyr",
+            "name": "Dedy Kurniawan Santoso",
+            "email": "dedysmd@hotmail.com",
+            "homepage": "https://github.com/dedyyyy",
             "role": "Developer"
         }
     ],
@@ -25,18 +25,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Cmgmyr\\Messenger\\": "src/"
+            "Dedyyyy\\Messenger\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Cmgmyr\\Messenger\\Test\\": "tests/"
+            "Dedyyyy\\Messenger\\Test\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Cmgmyr\\Messenger\\MessengerServiceProvider"
+                "Dedyyyy\\Messenger\\MessengerServiceProvider"
             ]
         }
     },

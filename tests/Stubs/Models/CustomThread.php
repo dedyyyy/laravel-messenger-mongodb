@@ -1,8 +1,8 @@
 <?php
 
-namespace Cmgmyr\Messenger\Test\Stubs\Models;
+namespace Dedyyyy\Messenger\Test\Stubs\Models;
 
-use Cmgmyr\Messenger\Models\Thread;
+use Dedyyyy\Messenger\Models\Thread;
 
 class CustomThread extends Thread
 {
