@@ -1,8 +1,8 @@
 <?php
 
-namespace Dedyyyy\Messenger\Models;
+namespace Cmgmyr\Messenger\Models;
 
-use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
+use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Participant extends Eloquent

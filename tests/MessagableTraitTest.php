@@ -1,9 +1,9 @@
 <?php
 
-namespace Dedyyyy\Messenger\Test;
+namespace Cmgmyr\Messenger\Test;
 
-use Dedyyyy\Messenger\Models\Thread;
-use Dedyyyy\Messenger\Traits\Messagable;
+use Cmgmyr\Messenger\Models\Thread;
+use Cmgmyr\Messenger\Traits\Messagable;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Support\Carbon;
 

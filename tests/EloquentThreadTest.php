@@ -1,10 +1,10 @@
 <?php
 
-namespace Dedyyyy\Messenger\Test;
+namespace Cmgmyr\Messenger\Test;
 
-use Dedyyyy\Messenger\Models\Models;
-use Dedyyyy\Messenger\Models\Participant;
-use Dedyyyy\Messenger\Models\Thread;
+use Cmgmyr\Messenger\Models\Models;
+use Cmgmyr\Messenger\Models\Participant;
+use Cmgmyr\Messenger\Models\Thread;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Support\Carbon;
 use ReflectionClass;

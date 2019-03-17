@@ -1,8 +1,8 @@
 <?php
 
-namespace Dedyyyy\Messenger\Test\Stubs\Models;
+namespace Cmgmyr\Messenger\Test\Stubs\Models;
 
-use Dedyyyy\Messenger\Models\Participant;
+use Cmgmyr\Messenger\Models\Participant;
 
 class CustomParticipant extends Participant
 {

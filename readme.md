@@ -1,16 +1,16 @@
-[![Build Status](https://img.shields.io/travis/dedyyyy/laravel-messenger.svg?style=flat-square)](https://travis-ci.org/dedyyyy/laravel-messenger)
-[![Scrutinizer](https://img.shields.io/scrutinizer/g/dedyyyy/laravel-messenger.svg?style=flat-square)](https://scrutinizer-ci.com/g/dedyyyy/laravel-messenger/)
-[![Scrutinizer Coverage](https://img.shields.io/scrutinizer/coverage/g/dedyyyy/laravel-messenger.svg?style=flat-square)](https://scrutinizer-ci.com/g/dedyyyy/laravel-messenger/)
-[![Latest Version](https://img.shields.io/github/release/dedyyyy/laravel-messenger.svg?style=flat-square)](https://github.com/dedyyyy/laravel-messenger/releases)
-[![Total Downloads](https://img.shields.io/packagist/dt/dedyyyy/messenger.svg?style=flat-square)](https://packagist.org/packages/dedyyyy/messenger)
+[![Build Status](https://img.shields.io/travis/cmgmyr/laravel-messenger.svg?style=flat-square)](https://travis-ci.org/cmgmyr/laravel-messenger)
+[![Scrutinizer](https://img.shields.io/scrutinizer/g/cmgmyr/laravel-messenger.svg?style=flat-square)](https://scrutinizer-ci.com/g/cmgmyr/laravel-messenger/)
+[![Scrutinizer Coverage](https://img.shields.io/scrutinizer/coverage/g/cmgmyr/laravel-messenger.svg?style=flat-square)](https://scrutinizer-ci.com/g/cmgmyr/laravel-messenger/)
+[![Latest Version](https://img.shields.io/github/release/cmgmyr/laravel-messenger.svg?style=flat-square)](https://github.com/cmgmyr/laravel-messenger/releases)
+[![Total Downloads](https://img.shields.io/packagist/dt/cmgmyr/messenger.svg?style=flat-square)](https://packagist.org/packages/cmgmyr/messenger)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/dedyyyy)
+[![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/cmgmyr)
 
 # Laravel Messenger
 This package will allow you to add a full user messaging system into your Laravel application.
 
 ## Leave some feedback
-[How are you using laravel-messenger?](https://github.com/dedyyyy/laravel-messenger/issues/55)
+[How are you using laravel-messenger?](https://github.com/cmgmyr/laravel-messenger/issues/55)
 
 ## Features
 * Multiple conversations per user
@@ -34,18 +34,18 @@ Laravel | Messenger
 5.5+ | 2.*
 
 ## Installation (Laravel 4.x - no longer actively supported)
-Installation instructions for Laravel 4 can be [found here](https://github.com/dedyyyy/laravel-messenger/tree/v1).
+Installation instructions for Laravel 4 can be [found here](https://github.com/cmgmyr/laravel-messenger/tree/v1).
 
 ## Installation (Laravel 5.x)
 ```
-composer require dedyyyy/messenger
+composer require cmgmyr/messenger
 ```
 
 Or place manually in composer.json:
 
 ```
 "require": {
-    "dedyyyy/messenger": "~2.0"
+    "cmgmyr/messenger": "~2.0"
 }
 ```
 
@@ -59,7 +59,7 @@ Add the service provider to `config/app.php` under `providers`:
 
 ```php
 'providers' => [
-    Dedyyyy\Messenger\MessengerServiceProvider::class,
+    Cmgmyr\Messenger\MessengerServiceProvider::class,
 ],
 ```
 
@@ -68,7 +68,7 @@ Add the service provider to `config/app.php` under `providers`:
 Publish config:
 
 ```
-php artisan vendor:publish --provider="Dedyyyy\Messenger\MessengerServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Cmgmyr\Messenger\MessengerServiceProvider" --tag="config"
 ```
 	
 Update config file to reference your User Model:
@@ -90,7 +90,7 @@ Create a `users` table if you do not have one already. If you need one, the defa
 Publish migrations:
 
 ```
-php artisan vendor:publish --provider="Dedyyyy\Messenger\MessengerServiceProvider" --tag="migrations"
+php artisan vendor:publish --provider="Cmgmyr\Messenger\MessengerServiceProvider" --tag="migrations"
 ```
 
 Migrate your database:
@@ -102,7 +102,7 @@ php artisan migrate
 Add the trait to your user model:
 
 ```php
-use Dedyyyy\Messenger\Traits\Messagable;
+use Cmgmyr\Messenger\Traits\Messagable;
 
 class User extends Authenticatable {
     use Messagable;
@@ -110,13 +110,13 @@ class User extends Authenticatable {
 ```
 
 ## Examples
-* [Controller](https://github.com/dedyyyy/laravel-messenger/tree/master/examples/MessagesController.php)
-* [Routes](https://github.com/dedyyyy/laravel-messenger/tree/master/examples/routes.php)
-* [Views](https://github.com/dedyyyy/laravel-messenger/tree/master/examples/views)
+* [Controller](https://github.com/cmgmyr/laravel-messenger/tree/master/examples/MessagesController.php)
+* [Routes](https://github.com/cmgmyr/laravel-messenger/tree/master/examples/routes.php)
+* [Views](https://github.com/cmgmyr/laravel-messenger/tree/master/examples/views)
 
 ## Example Projects
-* [WIP] [Pusher](https://github.com/dedyyyy/laravel-messenger-pusher-demo)
-* [WIP] [Lumen API](https://github.com/dedyyyy/lumen-messenger-api)
+* [WIP] [Pusher](https://github.com/cmgmyr/laravel-messenger-pusher-demo)
+* [WIP] [Lumen API](https://github.com/cmgmyr/lumen-messenger-api)
 
 
 ## Contributing? 
@@ -128,11 +128,11 @@ vendor/bin/php-cs-fixer fix .
 
 ## Security
 
-If you discover any security related issues, please email [Chris Gmyr](mailto:dedyyyy@gmail.com) instead of using the issue tracker.
+If you discover any security related issues, please email [Chris Gmyr](mailto:cmgmyr@gmail.com) instead of using the issue tracker.
 
 ## Credits
 
-- [Chris Gmyr](https://github.com/dedyyyy)
+- [Chris Gmyr](https://github.com/cmgmyr)
 - [Anton Komarev](https://github.com/antonkomarev)
 - [All Contributors](../../contributors)
 

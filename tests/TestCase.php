@@ -1,11 +1,11 @@
 <?php
 
-namespace Dedyyyy\Messenger\Test;
+namespace Cmgmyr\Messenger\Test;
 
 date_default_timezone_set('America/New_York');
 
 use AdamWathan\Faktory\Faktory;
-use Dedyyyy\Messenger\Models\Models;
+use Cmgmyr\Messenger\Models\Models;
 use Illuminate\Database\Capsule\Manager as DB;
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -44,9 +44,9 @@ class TestCase extends Orchestra
      */
     protected function getEnvironmentSetUp($app)
     {
-        $app['config']->set('messenger.message_model', 'Dedyyyy\Messenger\Models\Message');
-        $app['config']->set('messenger.participant_model', 'Dedyyyy\Messenger\Models\Participant');
-        $app['config']->set('messenger.thread_model', 'Dedyyyy\Messenger\Models\Thread');
+        $app['config']->set('messenger.message_model', 'Cmgmyr\Messenger\Models\Message');
+        $app['config']->set('messenger.participant_model', 'Cmgmyr\Messenger\Models\Participant');
+        $app['config']->set('messenger.thread_model', 'Cmgmyr\Messenger\Models\Thread');
     }
 
     /**
