@@ -1,16 +1,9 @@
-[![Build Status](https://img.shields.io/travis/dedyyyy/laravel-messenger.svg?style=flat-square)](https://travis-ci.org/dedyyyy/laravel-messenger)
-[![Scrutinizer](https://img.shields.io/scrutinizer/g/dedyyyy/laravel-messenger.svg?style=flat-square)](https://scrutinizer-ci.com/g/dedyyyy/laravel-messenger/)
-[![Scrutinizer Coverage](https://img.shields.io/scrutinizer/coverage/g/dedyyyy/laravel-messenger.svg?style=flat-square)](https://scrutinizer-ci.com/g/dedyyyy/laravel-messenger/)
-[![Latest Version](https://img.shields.io/github/release/dedyyyy/laravel-messenger.svg?style=flat-square)](https://github.com/dedyyyy/laravel-messenger/releases)
-[![Total Downloads](https://img.shields.io/packagist/dt/dedyyyy/messenger.svg?style=flat-square)](https://packagist.org/packages/dedyyyy/messenger)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/dedyyyy)
+
 
 # Laravel Messenger
 This package will allow you to add a full user messaging system into your Laravel application.
 
-## Leave some feedback
-[How are you using laravel-messenger?](https://github.com/dedyyyy/laravel-messenger/issues/55)
+
 
 ## Features
 * Multiple conversations per user
@@ -114,27 +107,6 @@ class User extends Authenticatable {
 * [Routes](https://github.com/dedyyyy/laravel-messenger/tree/master/examples/routes.php)
 * [Views](https://github.com/dedyyyy/laravel-messenger/tree/master/examples/views)
 
-## Example Projects
-* [WIP] [Pusher](https://github.com/dedyyyy/laravel-messenger-pusher-demo)
-* [WIP] [Lumen API](https://github.com/dedyyyy/lumen-messenger-api)
-
-
-## Contributing? 
-Please format your code before creating a pull-request. This will format all files as specified in `.php_cs`:
-
-```
-vendor/bin/php-cs-fixer fix .
-```
-
-## Security
-
-If you discover any security related issues, please email [Chris Gmyr](mailto:dedyyyy@gmail.com) instead of using the issue tracker.
-
-## Credits
-
-- [Chris Gmyr](https://github.com/dedyyyy)
-- [Anton Komarev](https://github.com/antonkomarev)
-- [All Contributors](../../contributors)
 
 ### Special Thanks
-This package used [AndreasHeiberg/laravel-messenger](https://github.com/AndreasHeiberg/laravel-messenger) as a starting point.
+This package used [Cmgmyr/laravel-messenger](https://github.com/cmgmyr/laravel-messenger) as a starting point.
