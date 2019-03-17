@@ -2,7 +2,7 @@
 
 namespace Cmgmyr\Messenger\Models;
 
-use Illuminate\Database\Eloquent\Model as Eloquent;
+use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Participant extends Eloquent
